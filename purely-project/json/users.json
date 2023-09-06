@@ -1,0 +1,15 @@
+[
+    {
+        "email": "Denis",
+        "password": "12345a",
+        "products": [
+            {
+                "title": "Экспресс-мойка",
+                "price": 8999,
+                "timer": true,
+                "date": "21.06.2023 12:37:42"
+            }
+        ],
+        "isRegistred": true
+    }
+]
