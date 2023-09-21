@@ -34,7 +34,7 @@ export default {
                 this.isRegistred = true
             }
         },
-        async senfData(evt) {
+        async sendData(evt) {
             evt.preventDefault();
             await axios.post('/register/phone', {
                 username: this.username,
@@ -151,7 +151,7 @@ export default {
                         </div>
                     </div>
                 </div>
-                <form @submit="senfData">
+                <form @submit="sendData">
                     <div class="item-infotext">
                         <div class="item-padd">
                             <div class="input-learn-well">
